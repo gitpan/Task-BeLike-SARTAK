@@ -1,0 +1,58 @@
+---
+abstract: ~
+author:
+  - 'Shawn M Moore C<sartak@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-BeLike-SARTAK
+no_index:
+  directory:
+    - inc
+requires:
+  App::Ack: 0
+  App::Nopaste: 0
+  CPAN::Uploader: 0
+  Carp::Always::Color: 0
+  Data::Dump::Streamer: 0
+  Devel::Cover: 0
+  Devel::NYTProf: 0
+  Devel::StackTrace::WithLexicals: 0
+  Dist::Zilla: 0
+  ExtUtils::MakeMaker::Dist::Zilla::Develop: 0
+  IO::All: 0
+  IPC::System::Simple: 0
+  Lingua::JA::Heisig: 0
+  Lingua::JA::Romanize::Japanese: 0
+  Lingua::JP::Kanjidic: 0
+  Module::Install: 0
+  Module::Install::AutoManifest: 0
+  Module::Install::GithubMeta: 0
+  Module::Install::ManifestSkip: 0
+  Module::Install::ReadmeFromPod: 0
+  Pod::Cpandoc: 0
+  REST::Google::Translate: 0
+  Test::NoTabs: 0
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
+  Test::Spelling: 0
+  V: 0
+  autovivification: 0
+  circular::require: 0
+  indirect: 0
+  perl5i: 0
+resources:
+  homepage: http://github.com/sartak/Task-BeLike-SARTAK/tree
+  license: http://dev.perl.org/licenses/
+  repository:
+    type: git
+    url: git://github.com/sartak/Task-BeLike-SARTAK.git
+    web: http://github.com/sartak/Task-BeLike-SARTAK/tree
+version: 0.01
