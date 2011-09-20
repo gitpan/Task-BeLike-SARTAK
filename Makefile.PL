@@ -11,11 +11,16 @@ requires       'App::Ack';
 requires       'Pod::Cpandoc';
 requires       'Devel::NYTProf';
 requires       'Devel::Cover';
+requires       'rename';
+requires       'utf8::all';
 
 # modules I use in scripts
 requires       'perl5i';
 requires       'IO::All';
 requires       'IPC::System::Simple';
+requires       'DBD::SQLite';
+requires       'Getopt::Whatever';
+requires       'Web::Scraper';
 
 # one-off debugging tools
 requires       'Data::Dump::Streamer';
@@ -25,6 +30,7 @@ requires       'Devel::StackTrace::WithLexicals';
 requires       'indirect';
 requires       'autovivification';
 requires       'circular::require';
+requires       'Module::Versions::Report';
 
 # toolchain
 requires       'Module::Install';
@@ -33,12 +39,14 @@ requires       'Module::Install::ReadmeFromPod';
 requires       'Module::Install::ManifestSkip';
 requires       'Module::Install::AutoManifest';
 requires       'CPAN::Uploader';
+requires       'File::ShareDir';
 
 # Japanese
 requires       'REST::Google::Translate';
 requires       'Lingua::JA::Romanize::Japanese';
 requires       'Lingua::JP::Kanjidic';
 requires       'Lingua::JA::Heisig';
+requires       'Lingua::JA::Moji';
 
 # typically-optional test dependencies
 requires       'Test::Pod';
