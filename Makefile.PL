@@ -11,16 +11,16 @@ requires       'App::Ack';
 requires       'Pod::Cpandoc';
 requires       'Devel::NYTProf';
 requires       'Devel::Cover';
-requires       'rename';
+requires       'File::Rename';
 requires       'utf8::all';
 
 # modules I use in scripts
-requires       'perl5i';
 requires       'IO::All';
 requires       'IPC::System::Simple';
 requires       'DBD::SQLite';
 requires       'Getopt::Whatever';
 requires       'Web::Scraper';
+requires       'Chart::Clicker';
 
 # one-off debugging tools
 requires       'Data::Dump::Streamer';
@@ -31,6 +31,7 @@ requires       'indirect';
 requires       'autovivification';
 requires       'circular::require';
 requires       'Module::Versions::Report';
+requires       'Signal::StackTrace::CarpLike';
 
 # toolchain
 requires       'Module::Install';
@@ -40,23 +41,22 @@ requires       'Module::Install::ManifestSkip';
 requires       'Module::Install::AutoManifest';
 requires       'CPAN::Uploader';
 requires       'File::ShareDir';
+requires       'Dist::Zilla';
+requires       'Dist::Zilla::PluginBundle::DOY';
+requires       'ExtUtils::MakeMaker::Dist::Zilla::Develop';
 
 # Japanese
-requires       'REST::Google::Translate';
 requires       'Lingua::JA::Romanize::Japanese';
 requires       'Lingua::JP::Kanjidic';
 requires       'Lingua::JA::Heisig';
 requires       'Lingua::JA::Moji';
+requires       'Text::MeCab';
 
 # typically-optional test dependencies
 requires       'Test::Pod';
 requires       'Test::Pod::Coverage';
 requires       'Test::NoTabs';
 requires       'Test::Spelling';
-
-# things I generally want installed even if I don't use them
-requires       'Dist::Zilla';
-requires       'ExtUtils::MakeMaker::Dist::Zilla::Develop';
 
 manifest_skip;
 auto_manifest;
