@@ -19,6 +19,7 @@ no_index:
     - inc
 requires:
   App::Ack: 0
+  App::ForkProve: 0
   App::Nopaste: 0
   CPAN::Uploader: 0
   Carp::Always::Color: 0
@@ -67,4 +68,4 @@ resources:
   homepage: https://github.com/sartak/Task-BeLike-SARTAK/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/sartak/Task-BeLike-SARTAK.git
-version: 0.04
+version: 0.05
